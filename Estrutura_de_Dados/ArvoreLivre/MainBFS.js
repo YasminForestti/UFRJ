@@ -151,16 +151,4 @@ class FreeTree {
     } 
     
     }
-    
-  let t = new FreeTree()
-  t.addEdge(1,2)
-  t.addEdge(1,3)
-  t.addEdge(3,4)
-  t.addEdge(3,5)
-  t.addEdge(2,7)
-  t.addEdge(2,8)
-  t.addEdge(2,10)
-  t.addEdge(4,11)
-  t.addEdge(10,12)
- console.log(t.rootedTree(1)) 
- console.log(t.rootedTree(3)) 
+
